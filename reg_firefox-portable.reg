@@ -1,0 +1,134 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\FirefoxPortableHTML]
+@="Firefox HTML"
+
+[HKEY_CLASSES_ROOT\FirefoxPortableHTML\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+
+[HKEY_CLASSES_ROOT\FirefoxPortableHTML\shell]
+
+[HKEY_CLASSES_ROOT\FirefoxPortableHTML\shell\open]
+
+[HKEY_CLASSES_ROOT\FirefoxPortableHTML\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -url \"%1\""
+
+[HKEY_CLASSES_ROOT\FirefoxPortableURL]
+@="Firefox Portable URL"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\FirefoxPortableURL\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+
+[HKEY_CLASSES_ROOT\FirefoxPortableURL\shell]
+
+[HKEY_CLASSES_ROOT\FirefoxPortableURL\shell\open]
+
+[HKEY_CLASSES_ROOT\FirefoxPortableURL\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -url \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableHTML]
+@="Firefox HTML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableHTML\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableHTML\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableHTML\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableHTML\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -url \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableURL]
+@="Firefox Portable URL"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableURL\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableURL\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableURL\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FirefoxPortableURL\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -url \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable]
+"LocalizedString"="Mozilla Firefox Portable Edition"
+@="Firefox Portable"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\Capabilities]
+"ApplicationName"="Mozilla Firefox Portable Edition"
+"ApplicationDescription"="Mozilla Firefox Portable Edition"
+"ApplicationIcon"="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+"Hidden"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\Capabilities\FileAssociations]
+".htm"="FirefoxPortableHTML"
+".html"="FirefoxPortableHTML"
+".shtml"="FirefoxPortableHTML"
+".xht"="FirefoxPortableHTML"
+".xhtml"="FirefoxPortableHTML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\Capabilities\StartMenu]
+"StartMenuInternet"="FirefoxPortable"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\Capabilities\URLAssociations]
+"http"="FirefoxPortableURL"
+"https"="FirefoxPortableURL"
+"ftp"="FirefoxPortableURL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\shell\properties]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Clients\StartMenuInternet\FirefoxPortable\shell\properties\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -preferences"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable]
+"LocalizedString"="Mozilla Firefox Portable"
+@="Firefox Portable"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\Capabilities]
+"ApplicationName"="Mozilla Firefox Portable"
+"ApplicationDescription"="Mozilla Firefox Portable Edition"
+"ApplicationIcon"="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+"Hidden"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\Capabilities\FileAssociations]
+".htm"="FirefoxPortableHTML"
+".html"="FirefoxPortableHTML"
+".shtml"="FirefoxPortableHTML"
+".xht"="FirefoxPortableHTML"
+".xhtml"="FirefoxPortableHTML"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\Capabilities\StartMenu]
+"StartMenuInternet"="FirefoxPortable"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\Capabilities\URLAssociations]
+"http"="FirefoxPortableURL"
+"https"="FirefoxPortableURL"
+"ftp"="FirefoxPortableURL"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\DefaultIcon]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\",0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\shell\open\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\shell\properties]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Clients\StartMenuInternet\FirefoxPortable\shell\properties\command]
+@="\"c:\\path\\to\\firefoxportable\\firefox-portable.exe\" -preferences"
